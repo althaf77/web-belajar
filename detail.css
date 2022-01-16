@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+      width: 45%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;
+}
+.gambar-produk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+  img{
+      width: 150px;
+      height: 150px;
+      text-align: center;
+  }
+  .buy{
+    align-items: center;
+    text-align: center;
+    background: #1bdf5c;
+    width: 100px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 50px;
+    color: white;
+  }
